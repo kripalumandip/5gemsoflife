@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* content  */
+.content{
+    height: 100vh;
+    width: 100%;
+}
+/* navbar  */
+.navbar {
+ display: flex;
+}
+.menu {
+    display: none;
+}
+.logo img {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 2px solid rgb(210, 251, 149);
+    padding: 10px;
+    border-radius: 50px;
+}
+.navlist{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.navlist ul{
+ display: flex;
+}
+.navlist ul li{
+ list-style: none;
+}
+.navlist ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 3px 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.navlist ul li a:hover {
+    text-decoration: underline;
+}
+.navsearch{
+    position: absolute;
+    top: 0px;
+    left: 75vw;
+}
+.navsearch input {
+    font-size: 1rem;
+    padding: 3px 5px;
+    border-radius: 7px;
+}
+.points{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 240px;
+    width: 100%;
+}
+.point1{
+    margin: 20px auto;
+    width: 65vw;
+    padding: 20px; 
+    border: 4px solid #b0ffd3;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    border-radius: 23px;  
+    
+}
+.point1 h1{
+    margin: 10px;
+    color: rgb(235, 233, 114);
+}
+
+
+
+/* utility class */
+.background{
+    background-image: linear-gradient(to right,#4c5cca,#bc77d2);
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 3px 5px;
+    border-radius: 7px;
+    background-color: rgb(92, 145, 109);
+    color: white;
+    margin: 10px 10px;
+}
+.btnMain{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 3px 5px;
+    border-radius: 7px;
+    background-color: rgb(92, 145, 109);
+    color: white;
+    margin: 10px 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(224, 233, 251);
+}
+.primaryHeading{
+    font-size: 5rem;
+    color: #ffe393;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
